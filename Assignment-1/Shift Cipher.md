@@ -1,0 +1,3 @@
+(a) The shift cipher, or Caesar cipher, is not perfectly secret because it is vulnerable to brute force attacks due to its limited key space. Since there are only 26 possible keys (corresponding to each letter shift), an attacker could try all possible keys until finding the correct one.
+
+(b)To achieve perfect secrecy, we need to use a key that is as long as the message itself and is randomly generated. This approach is known as the one-time pad. Each character of the message is combined with a character from the key using modular addition. Since the key is as long as the message and completely random, it provides perfect secrecy. In other words, even with infinite computational power, an attacker cannot deduce any information about the message without knowing the key.
